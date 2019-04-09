@@ -7,6 +7,7 @@ Environment for development with php, niginx and mysql
  - Update info in docker-compose and configs for nginx
  - Create an public repository
  - Inside docker directory run `docker-compose up`
+ - Update your host with deafult.conf host from the nginx folder, the default is app.local
  
 Your project should be organized as follows:
 ```
