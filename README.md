@@ -2,7 +2,20 @@
 Environment for development with php, niginx and mysql
 
 # How to use
- - Update info in docker-compose and configs for nginx
  - Install Docker and docker-compose
+ - Execute `git clone https://github.com/guil95/Docker-php-nginx-mysql.git` inside your project
+ - Update info in docker-compose and configs for nginx
  - Create an public repository
  - Inside docker directory run `docker-compose up`
+ 
+Your project should be organized as follows:
+```
+project
+|
+|───docker
+│   
+└───public
+|    │   index.php
+|
+|___src
+```
