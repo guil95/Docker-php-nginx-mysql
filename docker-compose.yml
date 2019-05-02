@@ -39,8 +39,10 @@ services:
         networks:
             - backend
         environment:
-            - MYSQL_ROOT_PASSWORD=password
-            - MYSQL_DATABASE=databasename
+            - MYSQL_DATABASE=mydb
+            - MYSQL_USER=root
+            - MYSQL_PASSWORD=root
+            - MYSQL_ROOT_PASSWORD=root
 
 networks:
     backend:

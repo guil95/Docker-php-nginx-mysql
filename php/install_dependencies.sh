@@ -21,8 +21,7 @@ docker-php-ext-configure gd \
         --with-jpeg-dir=/usr/include/ \
     && docker-php-ext-install -j$(nproc) gd
 
-docker-php-ext-install pdo pdo_mysql \
-    mbstring \
+docker-php-ext-install mbstring \
     mysqli \
     mcrypt \
     gettext \
